@@ -3,7 +3,7 @@
 $dbhost = "localhost";
 $dbuser = "root";
 $dbpassword = "";
-$dbname = "myproject_db";
+$dbname = #yourDataBaseGoesHere ;
 
 
 if(!$conn = mysqli_connect($dbhost, $dbuser, $dbpassword, $dbname))
